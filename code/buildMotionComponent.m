@@ -101,7 +101,7 @@ switch controllerName
     case 'analog_controller'
         % This could be used to control a PIFOC, say
         fprintf('NO ANALOG CONTROLLERS AT PRESENT\n')
-        fprintf('NO SETUP ROUTINE YET FOR "dummy_linearcontroller"\n')
+        fprintf('NO SETUP ROUTINE YET FOR "analog_controller"\n')
 
     otherwise
         fprintf('ERROR: unknown motion controller component "%s" SKIPPING BUILDING\n', controllerName)
